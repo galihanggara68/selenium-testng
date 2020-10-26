@@ -32,6 +32,7 @@
         <configuration>
           <systemPropertyVariables>
             <webdriver.chrome.driver>C:/Users/Administrator/Documents/tools/chromedriver/chromedriver.exe</webdriver.chrome.driver>
+            <webdriver.chrome.whitelistedIps></webdriver.chrome.whitelistedIps>
           </systemPropertyVariables>
         </configuration>
       </plugin>
