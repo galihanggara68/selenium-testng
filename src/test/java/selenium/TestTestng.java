@@ -19,7 +19,7 @@ public class TestTestng {
 
     @BeforeTest
     public void beforeClass() {
-        driver = new ChromeDriver();
+        driver = new FirefoxDriver();
     }
 
     @AfterTest

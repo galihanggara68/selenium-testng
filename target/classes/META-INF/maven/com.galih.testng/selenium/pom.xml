@@ -32,7 +32,7 @@
         <configuration>
           <systemPropertyVariables>
             <webdriver.chrome.driver>C:/Users/Administrator/Documents/tools/chromedriver/chromedriver.exe</webdriver.chrome.driver>
-            <webdriver.chrome.whitelistedIps></webdriver.chrome.whitelistedIps>
+            <webdriver.gecko.driver.binary>C:/Users/Administrator/Documents/tools/geckodriver-x86/geckodriver.exe</webdriver.gecko.driver.binary>
           </systemPropertyVariables>
         </configuration>
       </plugin>
