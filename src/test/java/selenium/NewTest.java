@@ -1,8 +1,7 @@
 package selenium;
 
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
+import org.testng.annotations.BeforeTest;
 
 import java.util.concurrent.TimeUnit;
 
@@ -12,17 +11,19 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeClass;
 
-public class TestTestng {
-
+public class NewTest {
     private WebDriver driver;
 
-    @BeforeTest
+    @BeforeClass
     public void beforeClass() {
         driver = new FirefoxDriver();
     }
 
-    @AfterTest
+    @AfterClass
     public void afterClass() {
         driver.quit();
     }
@@ -40,4 +41,5 @@ public class TestTestng {
 
         Assert.assertEquals(text, search_text, "Text not found!");
     }
+
 }

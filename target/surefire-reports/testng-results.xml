@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="selenium.TestTestng" duration-ms="9360" started-at="2020-10-26T16:29:23 ICT" finished-at="2020-10-26T16:29:33 ICT">
+  <suite name="Suite" duration-ms="12603" started-at="2020-10-28T13:13:41 ICT" finished-at="2020-10-28T13:13:53 ICT">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="9360" started-at="2020-10-26T16:29:23 ICT" finished-at="2020-10-26T16:29:33 ICT">
-      <class name="selenium.TestTestng">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:selenium.TestTestng@239963d8]" name="beforeClass" is-config="true" duration-ms="5134" started-at="2020-10-26T16:29:23 ICT" finished-at="2020-10-26T16:29:28 ICT">
+    <test name="Test" duration-ms="12603" started-at="2020-10-28T13:13:41 ICT" finished-at="2020-10-28T13:13:53 ICT">
+      <class name="selenium.NewTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:selenium.NewTest@20398b7c]" name="beforeClass" is-config="true" duration-ms="8016" started-at="2020-10-28T13:13:41 ICT" finished-at="2020-10-28T13:13:49 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="verifySearchButton()[pri:0, instance:selenium.TestTestng@239963d8]" name="verifySearchButton" duration-ms="3190" started-at="2020-10-26T16:29:29 ICT" finished-at="2020-10-26T16:29:32 ICT">
+        <test-method status="PASS" signature="verifySearchButton()[pri:0, instance:selenium.NewTest@20398b7c]" name="verifySearchButton" duration-ms="3185" started-at="2020-10-28T13:13:49 ICT" finished-at="2020-10-28T13:13:52 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySearchButton -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:selenium.TestTestng@239963d8]" name="afterClass" is-config="true" duration-ms="986" started-at="2020-10-26T16:29:32 ICT" finished-at="2020-10-26T16:29:33 ICT">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:selenium.NewTest@20398b7c]" name="afterClass" is-config="true" duration-ms="1322" started-at="2020-10-28T13:13:52 ICT" finished-at="2020-10-28T13:13:53 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-      </class> <!-- selenium.TestTestng -->
-    </test> <!-- Command line test -->
-  </suite> <!-- selenium.TestTestng -->
+      </class> <!-- selenium.NewTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
