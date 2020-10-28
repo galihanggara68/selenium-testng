@@ -1,7 +1,8 @@
 package selenium;
 
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
-import org.testng.annotations.BeforeClass;
 
 import java.util.concurrent.TimeUnit;
 
@@ -11,25 +12,23 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
-import org.testng.annotations.AfterClass;
 
 public class TestTestng {
 
     private WebDriver driver;
 
-//    @BeforeClass
-//    public void beforeClass() {
-//        driver = new ChromeDriver();
-//    }
+    @BeforeTest
+    public void beforeClass() {
+        driver = new ChromeDriver();
+    }
 
-    @AfterClass
+    @AfterTest
     public void afterClass() {
         driver.quit();
     }
 
     @Test
     public void verifySearchButton() {
-    	driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 
         driver.get("http://www.google.com");
