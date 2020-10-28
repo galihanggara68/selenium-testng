@@ -17,10 +17,10 @@ public class TestTestng {
 
     private WebDriver driver;
 
-    @BeforeClass
-    public void beforeClass() {
-        driver = new ChromeDriver();
-    }
+//    @BeforeClass
+//    public void beforeClass() {
+//        driver = new ChromeDriver();
+//    }
 
     @AfterClass
     public void afterClass() {
@@ -29,7 +29,7 @@ public class TestTestng {
 
     @Test
     public void verifySearchButton() {
-
+    	driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 
         driver.get("http://www.google.com");
